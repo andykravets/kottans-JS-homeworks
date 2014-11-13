@@ -1,0 +1,55 @@
+body {
+    background: #ede6ff;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #37b1cc;
+}
+
+p::first-letter {
+    font-size: 2em;
+}
+
+a:link {
+    color: #ff0;
+}
+
+a:hover{
+    color: #f00;
+}
+
+#menu ul li a:link {
+    color: #0f0;
+}
+
+div ul li a:visited {
+    color: #0000ff;
+}
+
+#contacts ul {
+    margin: 0;
+    padding: 0 0 15px 0;
+}
+
+#contacts ul li {
+    list-style: none;
+}
+
+#contacts ul::before {
+    content: "Contacts:";
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#register::after{
+    content: "That's all folks!";
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#faq {
+    background: #7fffff;
+    font-size: 1.5em;
+}
